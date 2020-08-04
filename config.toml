@@ -1,0 +1,31 @@
+baseURL = "https://alecyoung.digital/"
+languageCode = "en-us"
+title = "Alec Young Tie Yang"
+theme = "hugo-developer-portfolio"
+
+[params.plugins]
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+
+[menu]
+  [[menu.main]]
+  name = "Blog"
+  URL = "/blog"
+
+
+[params]
+home = "Home" # What you want the homepage to show up as in the menu bar
+# Meta data
+description = "Alec Young Tie Yang, 2nd Year student at Supinfo Mauritius"
+author = "Alec Young Tie Yang"
+
+  [params.footer]
+  email = "alec.youngtieyang98@gmail.com"
+  address = "Mauritius"
+  googlemaps = "https://goo.gl/maps/Yea151twDcKBA92T8"

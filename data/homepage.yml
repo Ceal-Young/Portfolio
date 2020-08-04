@@ -1,0 +1,46 @@
+---
+banner:
+  title: Website of Alec Young Tie Yang
+social:
+  twitter: ""
+  linkedin: alec-young-tie-yang-5aaaa1196
+  github: Ceal-Young
+  gitlab: ""
+  facebook: ""
+  instagram: ""
+  gmail: alec.youngtieyang98
+skill:
+  enable: true
+  item:
+    - title: Linux
+      logo: /img/linux.svg
+    - title: HTML
+      logo: /img/html5.svg
+    - title: Javascript
+      logo: /img/javascript.svg
+    - title: PHP
+      logo: /img/php.svg
+    - title: Python
+      logo: /img/python.svg
+    - title: C
+      logo: /img/c.svg
+    - title: Java
+      logo: /img/java.svg
+    - title: Bash
+      logo: /img/bash.svg
+    - title: MySQL
+      logo: /img/mysql.svg
+experience:
+  enable: true
+  item:
+    - logo: /img/lbn.png
+      title: Tech IT
+      company: LinkByNet
+      duration: 2019
+education:
+  enable: true
+  item:
+    - title: BSc Computer Science
+      year: 2018 - Present
+      academy: Supinfo
+      image: /img/supinfo.svg
