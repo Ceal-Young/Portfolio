@@ -20,6 +20,7 @@ Because of these flaws and the rise of DevOps, static websites generator such as
 They offer the possibility to create static websites without the need for technical skills.
 
 
+
 # Why use a static site generator?
 
 The main reason we would want to use a static site generator is to simplify and speed up the process of spinning up a website.
