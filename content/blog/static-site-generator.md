@@ -1,11 +1,10 @@
 ---
-title: "Static Site Generator"
-title: "Static Site Generator"
-date: 2020-08-04T11:30:43+04:00
-description: "About static site generator"
-author: "Alec Young Tie Yang"
----
+title: Static Site Generator
+date: 2020-08-04T11:30:43.000+04:00
+description: About static site generator
+author: Alec Young Tie Yang
 
+---
 # What is a static site generator?
 
 In the past, Developing, Publishing and Writing content on a website required HTML, CSS and JavaScript skills.
@@ -18,8 +17,6 @@ They can be hard to work with; they can be slow, heavy and quite of a struggle w
 Because of these flaws and the rise of DevOps, static websites generator such as Hugo, Jekyll or Hexo have become popular lately.
 
 They offer the possibility to create static websites without the need for technical skills.
-
-
 
 # Why use a static site generator?
 
