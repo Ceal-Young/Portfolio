@@ -1,8 +1,16 @@
-name: Jekyll site CI
+name: Auto pull request
 
 on:
   push:
     branches: [ dev ]
 jobs:
-  pull_request:
-    branches: [ master ]
+  auto-pull-request:
+    name: PullRequestAction
+    runs-on: ubuntu-latest
+    steps:
+      - name: pull-request-action
+        uses: ceal-young/pull-request-action@1.0.6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_PREFIX: "dev"
+          PULL_REQUEST_BRANCH: "master"
