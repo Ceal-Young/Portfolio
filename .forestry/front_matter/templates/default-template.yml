@@ -1,0 +1,18 @@
+---
+label: Default Template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: text
+  name: author
+  label: author
+pages:
+- content/blog/testing-from-dev-branch.md
