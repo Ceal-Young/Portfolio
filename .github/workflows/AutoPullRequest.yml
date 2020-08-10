@@ -1,18 +1,14 @@
-name: AutoPullRequest
-
 on:
   push:
-    branches: [ dev ]
-
+    branches:
+    - dev
 
 jobs:
-  build:
-
+  pull-request:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3.1.0
-        with:
-          branch: master  
+    - uses: actions/checkout@v2
+    - name: pull-request
+      uses: repo-sync/pull-request@v2
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
