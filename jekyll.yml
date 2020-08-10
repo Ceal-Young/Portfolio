@@ -1,0 +1,16 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ dev ]
+
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3.1.0
