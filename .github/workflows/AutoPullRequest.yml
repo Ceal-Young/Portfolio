@@ -1,0 +1,14 @@
+name: AutoPullRequest
+
+on:
+  push:
+    branches: [ dev ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: PullRequest
+        uses: actions/create-pull-request@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
