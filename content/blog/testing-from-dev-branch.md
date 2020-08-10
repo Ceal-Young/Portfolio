@@ -5,6 +5,4 @@ description = "This is a test from the dev branch"
 title = "Testing from Dev Branch"
 
 +++
-Hello from the dev branch
-
-Does it work properly
+Testing automated PR
