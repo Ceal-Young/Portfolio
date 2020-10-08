@@ -16,3 +16,4 @@ fields:
   label: author
 pages:
 - content/blog/testing-from-dev-branch.md
+- content/blog/testing-github-action.md
